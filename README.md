@@ -4,7 +4,7 @@ Here, We are going to present the R scripts and data set that can be used to rep
 
 - Ψ Simulation in parallel using bash (built for linux or Mac-Os);
 - Φ Traditional bootstrap confidence interval methods implementation;
-- ζ Implementation of Credible intervals and assymptotic confidence interval for Shannon's index; 
+- ζ Implementation of Credible interval and assymptotic confidence interval for Shannon's index; 
 
 ##
 
@@ -16,7 +16,15 @@ Here, We are going to present the R scripts and data set that can be used to rep
 
 ##
 
-<h3 align="center">Example</h3>
+<h3 align="center">Examples</h3>
+To run our code, first open the project "SupplementMaterial.Rproj". Then, follow the examples above to reproduce our results.
+
+```r
+source('00_source.r')
+
+# Loading data -----
+insects_abundance <- read.csv('')
+```
 
 ##
 
